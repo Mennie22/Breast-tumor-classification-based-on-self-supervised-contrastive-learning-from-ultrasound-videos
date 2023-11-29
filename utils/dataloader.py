@@ -5,13 +5,7 @@ import SimpleITK as sitk
 import re
 from DEMO.main import args
 from torchvision import transforms
-'''
-    数据增强:
-    1、totensor可以作用在数组和PIL格式数据上，转化成tensor，会把HWC数据转化为CHW；但如果 PIL Image 属于 (L, LA, P, I, F, RGB, YCbCr, RGBA, CMYK, 1) 中的一种图像类型，
-       或者 numpy.ndarray 格式数据类型是 np.uint8 ，则将 [0, 255] 的数据转为 [0.0, 1.0] ，也就是说将所有数据除以 255 进行归一化。
-    2、Centercrop啥的操作必须作用在tensor上，不能作用在数组上
-    3、如果数据是numpy格式的则需要先转为tensor，使用ToTensor转，再接transforms变换；如果数据是PIL格式的则无先后顺序
-'''
+
 transformer = transforms.Compose([
     transforms.Resize(224),
     transforms.RandomResizedCrop((224), scale = (0.5,1.0)),
