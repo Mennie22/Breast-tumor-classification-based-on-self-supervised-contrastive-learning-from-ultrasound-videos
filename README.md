@@ -3,7 +3,7 @@
 This paper is conducted by Yunxin Tang, Siyuan Tang, Jian Zhang, Hao Chen.<br>
 
 # Directory Structure
-* imgprocess
+* imgprocessing
   * get_mask
   * obtain_pretrain_datasets
   * stack_imgs
