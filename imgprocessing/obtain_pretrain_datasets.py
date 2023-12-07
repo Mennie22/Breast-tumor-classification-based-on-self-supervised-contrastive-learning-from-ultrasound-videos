@@ -184,5 +184,5 @@ for file in find_all_video('/home/jzhang/data-med/zs-collection/ultrasound/breas
                             else:
                                 ids[person][video]['num'] += 1
                         print(ids)
-                        cv2.imencode('.jpg',img)[1].tofile('/home/tyx/work/triplet_network/videoshot_5_new'+'/{}_{}_{}.jpg'.format(N,ids[person][video]['编号'],ids[person][video]['num']))
+                        cv2.imencode('.png',img)[1].tofile('/home/tyx/work/triplet_network/videoshot_5_new'+'/{}_{}_{}.jpg'.format(N,ids[person][video]['编号'],ids[person][video]['num']))
 
