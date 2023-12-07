@@ -4,9 +4,9 @@ This paper is conducted by Yunxin Tang, Siyuan Tang, Jian Zhang, Hao Chen.<br>
 
 # Directory Structure
 * imgprocess
-  get_mask
-  obtain_pretrain_datasets
-  stack_imgs
+  * get_mask
+  * obtain_pretrain_datasets
+  * stack_imgs
 * pretrain
 *   main
 *     train
