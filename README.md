@@ -8,20 +8,20 @@ This paper is conducted by Yunxin Tang, Siyuan Tang, Jian Zhang, Hao Chen.<br>
   * obtain_pretrain_datasets
   * stack_imgs
 * pretrain
-*   main
-*     train
-*     parser_args
-*   utils
-*     dataloader
-*     DenseNet
-*     indice_get
-*     loss_functions
+  * main
+   * train
+   * parser_args
+  * utils
+   * dataloader
+   * DenseNet
+   * indice_get
+   * loss_functions
 * downstream
-*   train
-*   parser_args2
-*   tools
-*     dataloader
-*     DenseNet
+ * train
+ * parser_args2
+ * tools
+  * dataloader
+  * DenseNet
  
 
 
